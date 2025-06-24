@@ -2,17 +2,24 @@
 
 ## 🚀 Instrucciones de ejecución
 
-1. **Clonar el repositorio (abrir GitBash)**:
+1. **Crear base de datos**
+   - Abrir psql en el buscador de windows
+   - Ingresar contraseña de PostgreSQL
+   - Ejecutar el siguiente comando en psql
+   ```bash
+   CREATE DATABASE tareasdb;
+
+3. **Clonar el repositorio (abrir GitBash)**:
    ```bash
    git clone https://github.com/Ajax296/Laboratorio3_API_Flask.git
    cd Laboratorio3_API_Flask
    
-2. **Configurar el entorno virtual**
+4. **Configurar el entorno virtual**
    ```bash
    python -m venv venv
    code .
 
-3. **Activar entorno virtual e instalar dependencias**
+5. **Activar entorno virtual e instalar dependencias**
    - Abrir una nueva terminal en VSCode
    - Ejecutar los siguientes comandos en la terminal
    ```bash
@@ -20,10 +27,10 @@
    venv\Scripts\activate     # Windows
    pip install -r requirements.txt
 
-4. **Ejecutar la API (Desde la terminal de VSCode)**
+6. **Ejecutar la API (Desde la terminal de VSCode)**
    ```bash
    python app.py
 
-5. **Acceder a la API**
+7. **Acceder a la API**
    ```bash
    http://localhost:5000
